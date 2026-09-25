@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef5fb;
+    color: #123;
+}
+
+
+.navbar {
+    background: #064b91;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 18px 40px;
+}
+
+
+.logo {
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+
+.navbar h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+.navbar p {
+    margin: 5px 0 0;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.welcome {
+    background: #064b91;
+    color: white;
+    padding: 50px;
+    margin-top: 25px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+
+.welcome h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.welcome h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+
+.welcome p {
+    font-size: 18px;
+}
+
+
+#searchBox {
+    width: 90%;
+    padding: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.routes-section {
+    padding: 30px 0;
+}
+
+
+.routes-section h2 {
+    color: #064b91;
+    font-size: 32px;
+}
+
+
+.routes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+
+.bus-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.12);
+    border-left: 5px solid #168de2;
+}
+
+
+.bus-card h3 {
+    color: #064b91;
+    font-size: 24px;
+}
+
+
+.bus-icon {
+    font-size: 35px;
+}
+
+
+.bus-card p {
+    font-size: 16px;
+}
+
+
+.bus-card button {
+    background: #064b91;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.bus-card button:hover {
+    background: #0876d1;
+}
+
+
+#message {
+    text-align: center;
+    color: #064b91;
+    font-weight: bold;
+    margin: 20px;
+}
+
+
+footer {
+    background: #064b91;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .welcome {
+        padding: 30px 20px;
+    }
+
+    .welcome h1 {
+        font-size: 28px;
+    }
+
+    .routes {
+        grid-template-columns: 1fr;
+    }
+}

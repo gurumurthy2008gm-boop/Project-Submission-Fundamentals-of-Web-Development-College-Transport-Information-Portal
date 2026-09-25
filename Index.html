@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>College Transport Portal</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">🚌</div>
+
+        <div>
+            <h1>College Transport Portal</h1>
+            <p>Safe Journey • Better Tomorrow</p>
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="welcome">
+
+            <h2>WELCOME TO</h2>
+
+            <h1>College Transport Portal</h1>
+
+            <p>
+                Find your bus route, pickup point
+                and timing easily.
+            </p>
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="Search route or pickup point..."
+                onkeyup="searchBus()">
+
+        </section>
+
+
+        <section class="routes-section">
+
+            <h2>College Bus Services</h2>
+
+            <p>
+                Select your route to view
+                transport information.
+            </p>
+
+
+            <div class="routes" id="busList">
+
+
+                <div class="bus-card">
+
+                    <div class="bus-icon">🚌</div>
+
+                    <h3>Route 01</h3>
+
+                    <p>
+                        <strong>Route:</strong>
+                        Villupuram → College
+                    </p>
+
+                    <p>
+                        <strong>Pickup:</strong>
+                        Bus Stand
+                    </p>
+
+                    <p>
+                        <strong>Time:</strong>
+                        8:00 AM
+                    </p>
+
+                    <button
+                        onclick="showMessage('Route 01')">
+                        View Route
+                    </button>
+
+                </div>
+
+
+                <div class="bus-card">
+
+                    <div class="bus-icon">🚌</div>
+
+                    <h3>Route 02</h3>
+
+                    <p>
+                        <strong>Route:</strong>
+                        Valavanur → College
+                    </p>
+
+                    <p>
+                        <strong>Pickup:</strong>
+                        Main Road
+                    </p>
+
+                    <p>
+                        <strong>Time:</strong>
+                        8:15 AM
+                    </p>
+
+                    <button
+                        onclick="showMessage('Route 02')">
+                        View Route
+                    </button>
+
+                </div>
+
+
+                <div class="bus-card">
+
+                    <div class="bus-icon">🚌</div>
+
+                    <h3>Route 03</h3>
+
+                    <p>
+                        <strong>Route:</strong>
+                        Madukarai → College
+                    </p>
+
+                    <p>
+                        <strong>Pickup:</strong>
+                        Madukarai Bus Stop
+                    </p>
+
+                    <p>
+                        <strong>Time:</strong>
+                        8:30 AM
+                    </p>
+
+                    <button
+                        onclick="showMessage('Route 03')">
+                        View Route
+                    </button>
+
+                </div>
+
+
+                <div class="bus-card">
+
+                    <div class="bus-icon">🚌</div>
+
+                    <h3>Route 04</h3>
+
+                    <p>
+                        <strong>Route:</strong>
+                        Kandamangalam → College
+                    </p>
+
+                    <p>
+                        <strong>Pickup:</strong>
+                        Main Bus Stop
+                    </p>
+
+                    <p>
+                        <strong>Time:</strong>
+                        8:45 AM
+                    </p>
+
+                    <button
+                        onclick="showMessage('Route 04')">
+                        View Route
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div id="message"></div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 College Transport Portal
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
